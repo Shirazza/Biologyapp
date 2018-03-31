@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shira.biologyapp.betweenSystems">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:id="@+id/HnameC"
+            android:layout_width="match_parent"
+            android:textSize="15dp"
+            android:textColor="@android:color/black"
+            android:layout_height="wrap_content"
+            android:text="חחחח" />
+
+        <ListView
+            android:id="@+id/options"
+            android:layout_width="match_parent"
+            android:layout_height="256dp" >
+
+        </ListView>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="160dp">
+
+            <TextView
+                android:id="@+id/information"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="חחח"
+                android:textColor="@android:color/black"
+                android:textSize="20dp" />
+        </ScrollView>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="חזור להתחלה"
+            android:onClick="backtobeg"/>
+
+    </LinearLayout>
+
+</LinearLayout>
